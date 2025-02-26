@@ -1,0 +1,35 @@
+<powerpagecomponent powerpagecomponentid="d7006dcd-7463-46bb-ab00-4b3895b68167">
+  <content>{
+  "filecontent": null,
+  "lcid": 1033,
+  "entityname": "ce_job",
+  "formname": "Information",
+  "mode": 100000002,
+  "onsuccess": "756150000",
+  "successmessage": "[{\"LCID\":1033,\"Value\":\"\"}]",
+  "hideformonsuccess": true,
+  "redirectwebpage": null,
+  "redirecturl": null,
+  "captcharequired": true,
+  "showcaptchaforauthenticatedusers": true,
+  "entitypermissionsenabled": true,
+  "attachfilelabel": "[{\"LCID\":1033,\"Value\":\"\"}]",
+  "attachfilestoragelocation": 756150000,
+  "attachfilemaxsize": null,
+  "maximumnooffiles": 5,
+  "containername": "",
+  "storageaccountname": "",
+  "entitysourcetype": "756150001",
+  "recordidquerystringparametername": "id",
+  "copy": "undefined",
+  "entityFormMetadatas": []
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Job Posting</name>
+  <powerpagecomponenttype>15</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

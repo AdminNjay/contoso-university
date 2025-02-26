@@ -1,0 +1,30 @@
+<powerpagecomponent powerpagecomponentid="5251de07-4518-44b4-a46e-e53ee89530d0">
+  <content>{
+  "entityname": "Open Positions  – Anonymous Users",
+  "entitylogicalname": "ce_job",
+  "scope": 756150000,
+  "append": false,
+  "appendto": false,
+  "delete": false,
+  "read": true,
+  "create": false,
+  "write": false,
+  "parentrelationship": null,
+  "parententitypermission": null,
+  "contactrelationship": null,
+  "accountrelationship": null,
+  "childTablePermissions": [],
+  "adx_entitypermission_webrole": [
+    "ca1e6dbb-5cda-48b7-81d0-e1d41fcc605f"
+  ],
+  "copy": "undefined"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Open Positions  – Anonymous Users</name>
+  <powerpagecomponenttype>18</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

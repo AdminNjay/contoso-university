@@ -1,0 +1,29 @@
+<powerpagecomponent powerpagecomponentid="75624f22-f5ed-48c0-b387-3161a7632bac">
+  <content>{
+  "entityname": "Authenticated Users",
+  "entitylogicalname": "ce_application",
+  "scope": 756150000,
+  "append": true,
+  "appendto": true,
+  "delete": false,
+  "read": true,
+  "create": true,
+  "write": true,
+  "parentrelationship": null,
+  "parententitypermission": null,
+  "contactrelationship": null,
+  "accountrelationship": null,
+  "childTablePermissions": [],
+  "adx_entitypermission_webrole": [
+    "2184dcc9-6a04-453a-8369-a62d574e15ae"
+  ]
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authenticated Users</name>
+  <powerpagecomponenttype>18</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

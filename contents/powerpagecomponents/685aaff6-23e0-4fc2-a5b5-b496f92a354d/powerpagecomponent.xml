@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="685aaff6-23e0-4fc2-a5b5-b496f92a354d">
+  <content>{"display_name":"Home/Subtitle","type":756150000,"value":"This is  sample landing page for you to start building your website."}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Home/Subtitle</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>9a236845-63b6-45c5-9aac-54a0d3b65f8b</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

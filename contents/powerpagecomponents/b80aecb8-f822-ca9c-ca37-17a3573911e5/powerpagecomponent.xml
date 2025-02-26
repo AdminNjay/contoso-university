@@ -1,0 +1,19 @@
+<powerpagecomponent powerpagecomponentid="b80aecb8-f822-ca9c-ca37-17a3573911e5">
+  <content>{
+  "webpageid": "db7c740d-5e9a-84a5-08cc-a9ddad313b27",
+  "right": 2,
+  "scope": 1,
+  "adx_webpageaccesscontrolrule_webrole": [
+    "2184dcc9-6a04-453a-8369-a62d574e15ae"
+  ],
+  "copy": "undefined"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Restrict Read on Apply Now</name>
+  <powerpagecomponenttype>10</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

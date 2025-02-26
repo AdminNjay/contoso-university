@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="29f058cc-03a6-4152-8d54-762e47bd3a2f">
+  <content>{"value":"SAMEORIGIN"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>HTTP/X-Frame-Options</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

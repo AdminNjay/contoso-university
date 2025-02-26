@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="f8a44dea-7314-4f7d-a260-4ad46aca0d48">
+  <content>{"display_name":"Search/Facet/Record Type","type":756150000,"value":"Record Type"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Search/Facet/RecordType</name>
+  <powerpagecomponenttype>7</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <powerpagesitelanguageid>
+    <powerpagesitelanguageid>9a236845-63b6-45c5-9aac-54a0d3b65f8b</powerpagesitelanguageid>
+  </powerpagesitelanguageid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

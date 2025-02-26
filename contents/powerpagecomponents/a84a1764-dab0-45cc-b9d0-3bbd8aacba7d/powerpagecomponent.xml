@@ -1,0 +1,19 @@
+<powerpagecomponent powerpagecomponentid="a84a1764-dab0-45cc-b9d0-3bbd8aacba7d">
+  <content>{
+  "progressindicatorenabled": true,
+  "multiplerecordsperuserpermitted": true,
+  "progressindicatorposition": 756150000,
+  "editexistingrecordpermitted": true,
+  "copy": "undefined",
+  "progressindicatortype": 756150000,
+  "startstep": "078318ff-c987-ef11-8a69-00224806b014"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Application</name>
+  <powerpagecomponenttype>19</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

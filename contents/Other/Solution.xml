@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24102.148" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24102.148" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24111.00176">
+  <SolutionManifest>
+    <UniqueName>PowerPagesAnytime</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="PowerPagesAnytime" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>Cre9670</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>crd53</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>90453</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ce_application" behavior="0" />
+      <RootComponent type="1" schemaName="ce_job" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="External Identity" solution="PowerPages_RuntimeCore (1.0.2407.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2407.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webformsession" displayName="Multistep Form Session" solution="PowerPages_RuntimeCore (1.0.2407.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="1" schemaName="ce_application" displayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="ce_application" parentDisplayName="Application" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{078318ff-c987-ef11-8a69-00224806b014}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{75624f22-f5ed-48c0-b387-3161a7632bac}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{f022dddc-d087-ef11-8a69-00224806b014}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_application" displayName="Application" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{fec7c572-d087-ef11-8a69-00224806b014}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="1" schemaName="ce_job" displayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="ce_job" parentDisplayName="Job" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{43eff1b2-acba-4f36-9dad-2d3222d487d2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{5251de07-4518-44b4-a46e-e53ee89530d0}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{b04d710a-fea2-4080-a5f2-bf2c5f550410}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_job" displayName="Job" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{d7006dcd-7463-46bb-ab00-4b3895b68167}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_ticket" displayName="Ticket" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_ticket" displayName="Ticket" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{883c0cd9-26ed-42fd-8e32-520e3979af1f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="ce_ticket" displayName="Ticket" solution="PowerPages1Day (1.0.0.3)" />
+        <Dependent type="powerpagecomponent" id="{cc8f1c06-3748-4ceb-b81f-5fb6d38c7934}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="powerpagessiteaifeedback" displayName="Power Pages Site AI Feedback" solution="PowerPages_RuntimeExtensions (1.0.2409.2)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Jobs" displayName="Active Jobs" parentSchemaName="ce_job" parentDisplayName="Job" solution="PowerPages1Day (1.0.0.3)" id="{d5b3d94f-91f6-4e6a-a313-d5ad530429ad}" />
+        <Dependent type="powerpagecomponent" id="{b04d710a-fea2-4080-a5f2-bf2c5f550410}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Job" solution="PowerPages1Day (1.0.0.3)" id="{1196a3f9-054e-4f1b-a11b-19e4702b3f34}" />
+        <Dependent type="powerpagecomponent" id="{d7006dcd-7463-46bb-ab00-4b3895b68167}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Portal - Web Form" parentDisplayName="Application" solution="PowerPages1Day (1.0.0.3)" id="{1c04eea3-7f6f-ee11-8df0-00224808d922}" />
+        <Dependent type="powerpagecomponent" id="{078318ff-c987-ef11-8a69-00224806b014}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Portal - Web Form" parentDisplayName="Application" solution="PowerPages1Day (1.0.0.3)" id="{1c04eea3-7f6f-ee11-8df0-00224808d922}" />
+        <Dependent type="powerpagecomponent" id="{f022dddc-d087-ef11-8a69-00224806b014}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Portal - Create" parentDisplayName="Ticket" solution="PowerPages1Day (1.0.0.3)" id="{5de183b5-7c6f-ee11-8df0-0022480466d5}" />
+        <Dependent type="powerpagecomponent" id="{cc8f1c06-3748-4ceb-b81f-5fb6d38c7934}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,29 @@
+<powerpagecomponent powerpagecomponentid="3348df0a-6984-1770-5f00-afff5db11b16">
+  <content>{
+  "displayorder": 4,
+  "customcss": "",
+  "customjavascript": "",
+  "pagetemplateid": "1f20eb13-2e8d-4799-a56c-d865ababe89b",
+  "parentpageid": "4e404b83-b68f-4368-b1ba-ef1014047d81",
+  "partialurl": "FAQ",
+  "isroot": true,
+  "title": "FAQ",
+  "summary": "&lt;p&gt;This is a sample landing page designed to be a starting point for your website&lt;/p&gt;",
+  "copy": "",
+  "publishingstateid": "f2cf92a7-db3f-44ba-96c8-c3fec42cbc98",
+  "enablerating": false,
+  "enabletracking": false,
+  "excludefromsearch": false,
+  "hiddenfromsitemap": true,
+  "sharedpageconfiguration": false
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>FAQ</name>
+  <powerpagecomponenttype>2</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <searchcontent>FAQFAQ</searchcontent>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

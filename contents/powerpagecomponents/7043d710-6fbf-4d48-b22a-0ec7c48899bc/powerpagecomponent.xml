@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="7043d710-6fbf-4d48-b22a-0ec7c48899bc">
+  <content>{"managecontentsnippets":false,"managesitemarkers":false,"manageweblinksets":false,"previewunpublishedentities":true}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Preview permission for Basic Portal</name>
+  <powerpagecomponenttype>12</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

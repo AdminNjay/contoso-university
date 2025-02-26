@@ -1,0 +1,11 @@
+<powerpagesites>
+  <powerpagesite powerpagesiteid="778e29ae-bf42-4030-bba3-59c6b17c91a4">
+    <content>{"defaultlanguage":"9a236845-63b6-45c5-9aac-54a0d3b65f8b","footerwebtemplateid":"f8298daa-e491-4cb2-af71-ba93658a685f","headerwebtemplateid":"7eb106f5-9e3c-47a7-a110-c6237a1984ce","statecode":0,"statuscode":1,"website_language":1033,"defaultbotconsumerid":"84135e50-2586-ef11-ac20-6045bd08e819"}</content>
+    <datamodelversion>2.0</datamodelversion>
+    <iscustomizable>1</iscustomizable>
+    <name>Anytown 311 (Portal) - site-f4lym</name>
+    <primarydomainname>site-f4lym.powerappsportals.com</primarydomainname>
+    <statecode>0</statecode>
+    <statuscode>1</statuscode>
+  </powerpagesite>
+</powerpagesites>

@@ -1,0 +1,22 @@
+<powerpagecomponent powerpagecomponentid="f760a204-4bd5-f121-728a-90403af05c73">
+  <content>{
+  "displayorder": 4,
+  "weblinksetid": "c2d1141d-3f7f-43a6-b39a-da1ef1d94d1a",
+  "pageid": "3348df0a-6984-1770-5f00-afff5db11b16",
+  "publishingstateid": "f2cf92a7-db3f-44ba-96c8-c3fec42cbc98",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true,
+  "copy": "undefined"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>FAQ</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

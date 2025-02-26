@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="d1e13756-2f26-41f6-9d48-65cb2193bd80">
+  <content>{"value":"true"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Forms/d7006dcd-7463-46bb-ab00-4b3895b68167/EnableGenAIFormsAssistant</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

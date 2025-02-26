@@ -1,0 +1,14 @@
+<powerpagecomponent powerpagecomponentid="3a504989-bb73-4a63-9a36-e20bbe4f5dcd">
+  <content>{
+  "filecontent": null,
+  "value": "TvW8Q~WNqMNXDwoEI83exSe1xFuS9e9H3dAuma.Q"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Authentication/OpenAuth/Microsoft/ClientSecret</name>
+  <powerpagecomponenttype>9</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

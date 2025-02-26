@@ -1,0 +1,22 @@
+<powerpagecomponent powerpagecomponentid="14342906-40b5-97f6-4988-b17922157d18">
+  <content>{
+  "displayorder": 5,
+  "weblinksetid": "c2d1141d-3f7f-43a6-b39a-da1ef1d94d1a",
+  "pageid": "1d8a05b1-addb-dec3-b123-a5ce358377dd",
+  "publishingstateid": "f2cf92a7-db3f-44ba-96c8-c3fec42cbc98",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true,
+  "copy": "undefined"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Submit New Ticket</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

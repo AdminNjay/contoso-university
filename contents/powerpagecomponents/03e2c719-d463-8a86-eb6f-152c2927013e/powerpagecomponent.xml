@@ -1,0 +1,22 @@
+<powerpagecomponent powerpagecomponentid="03e2c719-d463-8a86-eb6f-152c2927013e">
+  <content>{
+  "displayorder": 6,
+  "weblinksetid": "c2d1141d-3f7f-43a6-b39a-da1ef1d94d1a",
+  "pageid": "9fd8aa52-49dd-be54-93c0-149a71760517",
+  "publishingstateid": "f2cf92a7-db3f-44ba-96c8-c3fec42cbc98",
+  "displaypagevalidation": false,
+  "displayimageonly": false,
+  "displaypagechildlinks": false,
+  "openinnewwindow": false,
+  "robotsfollowlink": true,
+  "copy": "undefined"
+}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Open Positions</name>
+  <powerpagecomponenttype>5</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>

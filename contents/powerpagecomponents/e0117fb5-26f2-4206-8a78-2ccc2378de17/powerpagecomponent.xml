@@ -1,0 +1,11 @@
+<powerpagecomponent powerpagecomponentid="e0117fb5-26f2-4206-8a78-2ccc2378de17">
+  <content>{"source":"&lt;div class=\"container\"&gt;\r\n &lt;div class=\"page-heading\"&gt;\r\n  {% block breadcrumbs %}\r\n      {% include 'Breadcrumbs' %}\r\n    {% endblock %}\r\n  {% block title %}\r\n    {% include 'Page Header' %}\r\n  {% endblock %}\r\n &lt;/div&gt;\r\n &lt;div class=\"row\"&gt;\r\n  &lt;div class=\"col-lg-4 start-column\"&gt;\r\n   {% block left_aside %}{% endblock %}\r\n  &lt;/div&gt;\r\n  &lt;div class=\"col-lg-4 middle-column\"&gt;\r\n   {% block main %}\r\n    {% include 'Page Copy' %}\r\n   {% endblock %}\r\n  &lt;/div&gt;\r\n  &lt;div class=\"col-lg-4 end-column\"&gt;\r\n   {% block right_aside %}{% endblock %}\r\n  &lt;/div&gt;\r\n &lt;/div&gt;\r\n&lt;/div&gt;"}</content>
+  <iscustomizable>1</iscustomizable>
+  <name>Layout 3 Column</name>
+  <powerpagecomponenttype>8</powerpagecomponenttype>
+  <powerpagesiteid>
+    <powerpagesiteid>778e29ae-bf42-4030-bba3-59c6b17c91a4</powerpagesiteid>
+  </powerpagesiteid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</powerpagecomponent>
