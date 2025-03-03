@@ -15,9 +15,9 @@ jobs:
       - uses: microsoft/powerplatform-actions/pack-solution@v0
         continue-on-error: true
         with:
-          solution-file: out/contoso_university_core.zip
+          solution-file: out/TestSolution_1_0_0_1_managed.zip
           solution-folder: contents
-          solution-type: Both
+          solution-type: Managed
       - uses: actions/upload-artifact@v4
         with:
           name: packed-solution
