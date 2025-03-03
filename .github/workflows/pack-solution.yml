@@ -13,7 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: microsoft/powerplatform-actions/pack-solution@v0
-        continue-on-error: true
         with:
           solution-file: out/TestSolution_1_0_0_1_managed.zip
           solution-folder: contents
