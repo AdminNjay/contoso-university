@@ -1,0 +1,239 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_teams": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "crd53_sharedteams_d9c01"
+        },
+        "api": {
+          "name": "shared_teams"
+        }
+      },
+      "shared_commondataserviceforapps": {
+        "impersonation": {},
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "crd53_sharedcommondataserviceforapps_9faa8"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      },
+      "shared_office365": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "crd53_sharedoffice365_93db5"
+        },
+        "api": {
+          "name": "shared_office365"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "c0a1a840-8a7b-454f-ab4c-6fe6c6418213"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 7,
+              "subscriptionRequest/entityname": "task",
+              "subscriptionRequest/scope": 4
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "Switch": {
+          "runAfter": {},
+          "cases": {
+            "Case_Create": {
+              "case": "Create",
+              "actions": {
+                "Post_message_in_a_chat_or_channel": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "639c9252-5010-4020-82b1-9cf71d90f7c8"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams",
+                      "connectionName": "shared_teams",
+                      "operationId": "PostMessageToConversation"
+                    },
+                    "parameters": {
+                      "poster": "Flow bot",
+                      "location": "Chat with Flow bot",
+                      "body/recipient": "admin@CRMbc980797.onmicrosoft.com;",
+                      "body/messageBody": "<p>The Task - @{triggerOutputs()?['body/activityid']} has been Created</p>"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                },
+                "Send_an_email_(V2)": {
+                  "runAfter": {
+                    "Post_message_in_a_chat_or_channel": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "0fd29e9a-5266-4cd6-827e-b92fb32be7a2"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                      "connectionName": "shared_office365",
+                      "operationId": "SendEmailV2"
+                    },
+                    "parameters": {
+                      "emailMessage/To": "admin@CRMbc980797.onmicrosoft.com",
+                      "emailMessage/Subject": "@triggerOutputs()?['body/subject']",
+                      "emailMessage/Body": "<p>This task has been created.&nbsp;</p>",
+                      "emailMessage/Importance": "Normal"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                }
+              }
+            },
+            "Case_Update": {
+              "case": "Update",
+              "actions": {
+                "Post_message_in_a_chat_or_channel_2": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "cdbde11f-fba5-4e01-9d0a-eb342225d59d"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams",
+                      "connectionName": "shared_teams",
+                      "operationId": "PostMessageToConversation"
+                    },
+                    "parameters": {
+                      "poster": "Flow bot",
+                      "location": "Chat with Flow bot",
+                      "body/recipient": "admin@CRMbc980797.onmicrosoft.com;",
+                      "body/messageBody": "<p>The task - @{triggerOutputs()?['body/activityid']}has been updated.&nbsp;</p>"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                },
+                "Send_an_email_(V2)_2": {
+                  "runAfter": {
+                    "Post_message_in_a_chat_or_channel_2": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "c6e1e8fa-b812-4adf-9aeb-6570e43dac54"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                      "connectionName": "shared_office365",
+                      "operationId": "SendEmailV2"
+                    },
+                    "parameters": {
+                      "emailMessage/To": "admin@CRMbc980797.onmicrosoft.com",
+                      "emailMessage/Subject": "@triggerOutputs()?['body/subject']",
+                      "emailMessage/Body": "<p>This Task has been Updated.&nbsp;</p>",
+                      "emailMessage/Importance": "Normal"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                }
+              }
+            },
+            "Case_Delete": {
+              "case": "Delete",
+              "actions": {
+                "Post_message_in_a_chat_or_channel_3": {
+                  "runAfter": {},
+                  "metadata": {
+                    "operationMetadataId": "9c487aeb-c008-4f9a-afaf-8f6afa07ac9e"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_teams",
+                      "connectionName": "shared_teams",
+                      "operationId": "PostMessageToConversation"
+                    },
+                    "parameters": {
+                      "poster": "Flow bot",
+                      "location": "Chat with Flow bot",
+                      "body/recipient": "admin@CRMbc980797.onmicrosoft.com;",
+                      "body/messageBody": "<p>The Task - @{triggerOutputs()?['body/activityid']} has been deleted.&nbsp;</p>"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                },
+                "Send_an_email_(V2)_3": {
+                  "runAfter": {
+                    "Post_message_in_a_chat_or_channel_3": [
+                      "Succeeded"
+                    ]
+                  },
+                  "metadata": {
+                    "operationMetadataId": "bd214c77-2e5e-47fe-9ab7-7ce33d228e9c"
+                  },
+                  "type": "OpenApiConnection",
+                  "inputs": {
+                    "host": {
+                      "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365",
+                      "connectionName": "shared_office365",
+                      "operationId": "SendEmailV2"
+                    },
+                    "parameters": {
+                      "emailMessage/To": "admin@CRMbc980797.onmicrosoft.com",
+                      "emailMessage/Subject": "@triggerOutputs()?['body/subject']",
+                      "emailMessage/Body": "<p>This task has been Deleted.</p>",
+                      "emailMessage/Importance": "Normal"
+                    },
+                    "authentication": "@parameters('$authentication')"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "actions": {}
+          },
+          "expression": "@triggerOutputs()?['body/SdkMessage']",
+          "metadata": {
+            "operationMetadataId": "496c6a16-dce4-4519-913c-5ab6a651af0f"
+          },
+          "type": "Switch"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
